@@ -3,7 +3,7 @@ name: Change Request
 about: Change internals
 title: "[Change Request]"
 labels: change
-assignees: bartvanb, frankcorneliusmartin
+assignees:
 
 ---
 
