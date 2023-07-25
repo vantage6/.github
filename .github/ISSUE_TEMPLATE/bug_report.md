@@ -3,7 +3,7 @@ name: Bug report
 about: Create a report to help us improve, not intented for security issues.
 title: "[Bug]"
 labels: bug
-assignees: bartvanb, frankcorneliusmartin
+assignees:
 
 ---
 IMPORTANT
