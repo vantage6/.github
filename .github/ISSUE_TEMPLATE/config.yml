@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/vantage6/vantage6/security/advisories/new
+    about: Please report security issues privately, not as a public issue.
+  - name: Ask a question
+    url: https://github.com/vantage6/vantage6/discussions
+    about: Questions about using or deploying vantage6.
+  - name: Documentation
+    url: https://docs.vantage6.ai
+    about: User, administrator and algorithm developer documentation.

@@ -1,0 +1,31 @@
+name: Documentation
+description: Report missing, incorrect or unclear documentation.
+type: Task
+labels: [component:documentation]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of issue
+      options:
+        - Missing
+        - Incorrect or outdated
+        - Unclear
+        - Other
+  - type: input
+    id: location
+    attributes:
+      label: Page or section
+      description: Link to the documentation page, or the section it concerns.
+      placeholder: https://docs.vantage6.ai/...
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is wrong or missing?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement

@@ -1,0 +1,38 @@
+name: Change request
+description: Propose an internal change, such as a refactor, dependency update or tooling change.
+type: Task
+labels: [change]
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      multiple: true
+      options:
+        - HQ
+        - Node
+        - Algorithm store
+        - UI
+        - CLI / sandbox
+        - Python client
+        - Algorithm tools
+        - Documentation
+        - CI / infrastructure
+        - Other / not sure
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What should change? Link to the relevant source where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this change needed?
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is in and out of scope, and when is this done?
